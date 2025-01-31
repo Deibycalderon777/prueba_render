@@ -28,7 +28,7 @@ def buscar():
 
     cursor = con.cursor(dictionary=True)
     cursor.execute("""
-    SELECT * FROM productos
+    SELECT * FROM usuarios
     """)
     registros = cursor.fetchall()
 
