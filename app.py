@@ -8,9 +8,9 @@ import mysql.connector
 
 con = mysql.connector.connect(
     host="185.232.14.52",
-    database="u760464709_16005339_bd",
-    user="u760464709_16005339_usr",
-    password="SUZD>3a^"
+    database="u760464709_23005089_bd",
+    user="u760464709_23005089_usr",
+    password=":Sa[MX~2l"
 )
 
 app = Flask(__name__)
