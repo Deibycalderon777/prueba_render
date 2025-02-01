@@ -19,7 +19,7 @@ app = Flask(__name__)
 def index():
     con.close()
 
-    return render_template("app.html")
+    return render_templantes("app.html")
 
 @app.route("/buscar")
 def buscar():
