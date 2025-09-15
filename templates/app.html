@@ -28,6 +28,7 @@
                 respuesta.forEach((registro, index) => {
                     let nombre = registro["Nombre_Usuario"];
                     let correo = registro["Correo_Electronico"];
+                     let correo = registro["Contrasena"];
                     $("#tbodyUsuarios").append(`
                         <tr>
                             <td>${index + 1}</td>
